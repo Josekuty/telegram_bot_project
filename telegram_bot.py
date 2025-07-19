@@ -45,7 +45,7 @@ async def download_reel(update: Update, context: ContextTypes.DEFAULT_TYPE):
 
     try:
         filename = "reel.mp4"
-        subprocess.run(['yt-dlp', '-o', filename, url], check=True)
+        subprocess.run(['yt-dlp','--cookies', 'cookies.txt', '-o', filename, url], check=True)
 
         if os.path.exists(filename):
             with open(filename, 'rb') as video:
