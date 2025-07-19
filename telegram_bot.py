@@ -10,6 +10,5 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
 async def run_bot():
     app = ApplicationBuilder().token(BOT_TOKEN).build()
     app.add_handler(CommandHandler("start", start))
-    await app.start()
-    await app.updater.start_polling()
-    await app.updater.idle()
+    print("🤖 Telegram bot is running...")
+    await app.run_polling()
