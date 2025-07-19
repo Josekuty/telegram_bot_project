@@ -1,0 +1,3 @@
+.instagram.com	TRUE	/	FALSE	0	sessionid	48992500499%3AHwbZzWHxnx5RGV%3A33AAYfVvxzwm7P6FlGuXa86KnrBYOPQI4JLghE2rV0Y8w
+.instagram.com	TRUE	/	FALSE	0	ds_user_id	48992500499
+.instagram.com	TRUE	/	FALSE	0	csrftoken	r3lvNE4JRjGKMxKeM70uC5uBt7wShx8G
