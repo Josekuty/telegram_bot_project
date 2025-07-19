@@ -11,8 +11,8 @@ def run_flask():
     app.run(host='0.0.0.0', port=10000)
 
 def run_telegram():
-    loop = asyncio.get_event_loop()
-    loop.run_until_complete(run_bot())
+    asyncio.run(run_bot())
 
-Thread(target=run_flask).start()
-run_telegram()
+if __name__ == "__main__":
+    Thread(target=run_flask).start()
+    run_telegram()
